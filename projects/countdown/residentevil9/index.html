@@ -41,7 +41,7 @@
             target="_blank">
             <img src="/assets/img/projetos/countdown/logos/re9_2.png" class="logo" alt="logo"></a>
             <div class="container">
-                <div id="timer" data-i18n="countdown_showcase">-</div>
+                <div id="timer">00D 00H 00M 00S</div>
             </div>
         </div>
         <div class="timer-group">
@@ -59,8 +59,8 @@
     <script src="/assets/js/projetos/countdown.js"></script>
     <script>
         // TIMER
-        // const targetDate = new Date(Date.UTC(2026, 0, 0, 0, 0, 0));
-        // new CountdownTimer(targetDate, 'timer');
+        const targetDate = new Date(Date.UTC(2026, 0, 15, 22, 0, 0));
+        new CountdownTimer(targetDate, 'timer');
 
         // TIMER 2
         const targetDate2 = new Date(Date.UTC(2026, 1, 27, 5, 0, 0));

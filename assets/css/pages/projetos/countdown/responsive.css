@@ -1,0 +1,51 @@
+@media (max-width: 1500px){
+    .botao-trailer:hover, #botao-mute:hover, #botao-idioma:hover{
+        border: 2px solid hsla(0, 0%, 0%, 0);
+    }
+
+    .botao-live:hover{
+        background-color: hsla(0, 0%, 100%, 0.5);
+    }
+
+    .logo{
+        height: 150px;
+    }
+
+    .timers-wrapper{
+        flex-direction: column;
+        align-items: center;
+
+        gap: 0px;
+    }
+    
+    .container{
+        font-size: 40px;
+
+        margin-top: 20px;
+        padding: 20px 40px;
+    }
+            
+    .container:hover{
+        font-size: 45px;
+
+        padding: 20px 40px;
+    }
+}
+
+@media (max-height: 768px) {
+    .logo{
+        height: 150px;
+    }
+    
+    .container{
+        font-size: 40px;
+
+        padding: 20px 40px;
+    }
+            
+    .container:hover{
+        font-size: 45px;
+
+        padding: 20px 40px;
+    }
+}

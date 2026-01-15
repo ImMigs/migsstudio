@@ -7,7 +7,7 @@ https://www.migs-studio.com.br
 **GENERAL**
 - README.md created
 - Better responsive screen for mobile devices
-- ADDED Language button (PT-BR & EN-US)
+- ADDED language button (PT-BR & EN-US)
 
 **COUNTDOWN**
 - Showcase´s timer updated

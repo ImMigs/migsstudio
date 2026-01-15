@@ -1,7 +1,7 @@
 # 🌐 WEBSITE
 https://www.migs-studio.com.br
 
-# 📣 WHAT´S NEW?
+# 📣 WHAT´S NEW? — 15.01.2026
 - README.md created
 - Language button (PT-BR & EN-US)
 - Better responsive screen for mobile devices

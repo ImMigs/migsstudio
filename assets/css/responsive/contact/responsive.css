@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px){
+    .container-contato{
+        grid-template-columns: repeat(3, 2fr);
+    }
+    hr, p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,84 @@
+header{
+    position: relative;
+    font-family: 'Oswald';
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+
+    width: 100%;
+    padding: 50px;
+    
+    box-sizing: border-box;
+    z-index: 1;
+
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(263, 40%, 30%);
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    text-align: center;
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar ul{
+    overflow: hidden;
+    list-style-type: none;
+
+    font-family: 'Oswald';
+    font-size: 15px;
+    text-align: center;
+
+    margin: 0px;
+    padding: 0px;
+       
+    background-color: hsl(263, 40%, 20%);
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a{
+    display: inline-block;
+    text-decoration: none;
+
+    text-align: center;
+
+    width: 100px;
+    padding: 12px;
+
+    color:hsl(0, 0%, 70%);
+
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover{
+    background-color: hsl(263, 40%, 10%);
+}
+
+#navbar-selecionado{
+    color:hsl(0, 0%, 100%);
+}
+
+/* COMPUTADORES */
+@media (pointer: fine) and (hover: hover){
+    @media (max-width: 768px){
+        .navbar a{
+            width: 90px;
+        }
+    }
+}
+
+/* DISPOSITIVOS MÓVEIS */
+@media (pointer: coarse) and (hover: none){
+    header{
+        font-size: 25px;
+        padding: 20px;
+    }
+}

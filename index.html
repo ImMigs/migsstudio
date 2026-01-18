@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/assets/img/home/icon.png">
-    <title>Migs Studio</title>
+    <title>Migs Studio | Manutenção</title>
     
     <link rel="stylesheet" href="/assets/css/global/base.css">
     <link rel="stylesheet" href="/assets/css/global/header.css">
@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/161ec40ef8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,17 +24,15 @@
 
     <nav class="navbar">
         <ul>
-            <li><a href="/" id="navbar-selecionado" data-i18n="navbar_paginainicial">-</a></li>
-            <li><a href="/games/" data-i18n="navbar_jogos">-</a></li>
-            <li><a href="/projects/countdown/" data-i18n="navbar_projetos">-</a></li>
-            <li><a href="/contact/" data-i18n="navbar_contato">-</a></li>
+            <li><a id="navbar-selecionado" data-i18n="navbar_paginainicial">-</a></li>
+            <li><a><i class="fa-solid fa-lock"></i> <span data-i18n="navbar_jogos">-</span></a></li>
+            <li><a><i class="fa-solid fa-lock"></i> <span data-i18n="navbar_projetos">-</span></a></li>
+            <li><a><i class="fa-solid fa-lock"></i> <span data-i18n="navbar_contato">-</span></a></li>
         </ul>
     </nav>
 
-    <div class="aviso">
-        <h1 data-i18n="aviso_titulo">-</h1>
-        <p data-i18n="aviso_conteudo">-</p>
-    </div>
+    <h1 class="manutencao" data-i18n="manut_titulo">-</h1>
+    <p class="manutencao" data-i18n="manut_conteudo">-</p>
 
     <script src="/assets/js/core/base.js"></script>
 </body>

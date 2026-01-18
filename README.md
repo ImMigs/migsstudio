@@ -11,5 +11,5 @@ https://www.migs-studio.com.br
 - Showcase´s timer updated
 - REMOVED language button
 
-# 🕒 SCHEDULED MAINTENANCE
+# 🕒 MAINTENANCE
 01.18.2026 — 17:00 UTC

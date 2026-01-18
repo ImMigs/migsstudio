@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/img/projetos/countdown/icons/gta6.jpg">
+    <title>GTA VI | Countdown</title>
+
+    <link rel="stylesheet" href="/assets/css/global/base.css">
+    
+    <link rel="stylesheet" href="/assets/css/pages/projects/countdown/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive/projects/countdown/responsive.css">
+
+    <style>
+        body {
+            background: url('/assets/img/projetos/countdown/backgrounds/gta6.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+
+    <script src="https://kit.fontawesome.com/161ec40ef8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container-trailer">
+        <a href="https://www.youtube.com/watch?v=QdBZY2fkU-0"
+        target="_blank">
+        <button class="botao-trailer">TRAILER 1</button></a>
+        <a href="https://www.youtube.com/watch?v=VQRLujxTm3c"
+        target="_blank">
+        <button class="botao-trailer">TRAILER 2</button></a>
+    </div>
+    <button id="botao-mute">🔇</button>
+
+    <div class="timers-wrapper">
+        <div class="timer-group">
+            <img src="/assets/img/projetos/countdown/logos/gta6.png" class="logo" alt="logo">
+            <div class="container">
+                <div id="timer">00D 00H 00M 00S</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-loja">
+        <a href="https://www.rockstargames.com/VI/"
+        target="_blank">
+        <button class="botao-loja"><i class="fa-solid fa-globe"></i> OFFICIAL WEBSITE</button></a>
+        <a href="https://www.playstation.com/pt-br/games/grand-theft-auto-vi/"
+        target="_blank">
+        <button class="botao-loja">PLAYSTATION 5</button></a>
+        <a href="https://www.xbox.com/pt-PT/games/store/grand-theft-auto-vi/9NL3WWNZLZZN"
+        target="_blank">
+        <button class="botao-loja">XBOX SERIES X | S</button></a>
+    </div>
+
+    <script>
+        // AUDIO
+        window.customAudioPath = '/assets/audios/projetos/countdown/gta6_theme.mp3'; 
+    </script>
+    <script src="/assets/js/projetos/countdown.js"></script>
+    <script>
+        // TIMER
+        const targetDate = new Date(2026, 10, 19, 0, 0, 0);
+        new CountdownTimer(targetDate, 'timer');
+    </script>
+
+    <script src="/assets/js/core/base.js"></script>
+</body> 

@@ -1,0 +1,18 @@
+/* COMPUTADORES & DISPOSITIVOS MÓVEIS */
+@media (max-width: 768px){
+    main{
+        flex-direction: column;
+    }
+
+    .split-section:hover{
+        flex: 1;
+    }
+
+    .split-section:hover img{
+        transform: scale(1);
+    }
+
+    .split-section{
+        max-height: 43%;
+    }
+}

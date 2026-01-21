@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/img/projetos/countdown/icons/re9.png">
+    <title>Resident Evil Requiem | Countdown</title>
+
+    <link rel="stylesheet" href="/assets/css/global/base.css">
+    <link rel="stylesheet" href="/assets/css/global/header.css">
+
+    <link rel="stylesheet" href="/assets/css/pages/projects/countdown/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive/projects/countdown/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: url('/assets/img/projetos/countdown/backgrounds/re9.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+
+    <script src="https://kit.fontawesome.com/161ec40ef8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="sub_navbar">
+        <a href="/" target="_self"><img src="/assets/img/home/logo_alt.png" alt="logo" class="logo_alt"></a>
+        <ul class="sub_navbar-esquerdo">
+            <li class="sub_navbar-item"><a href="https://www.youtube.com/watch?v=POz1-EmLsTY" target="_blank">Trailer 1</a></li>
+            <li class="sub_navbar-item"><a href="https://www.youtube.com/watch?v=0wFNN1f6hF8" target="_blank">Trailer 2</a></li>
+            <li class="sub_navbar-item"><a href="https://www.youtube.com/watch?v=T54OWinnymM" target="_blank">Trailer 3</a></li>
+            <li class="sub_navbar-item"><a href="https://www.youtube.com/watch?v=i9HIc7GZLa0" target="_blank">Resident Evil Showcase</a></li>
+        </ul>
+
+        <div class="sub_navbar-direito">
+            <button id="botao-idioma">🌐</button>
+            <button id="botao-mute">🔇</button>
+        </div>
+    </div>
+
+    <div class="timers-wrapper">
+        <div class="timer-group">
+            <img src="/assets/img/projetos/countdown/logos/re9.webp" class="logo" alt="logo">
+            <div class="container">
+                <div id="timer">00D 00H 00M 00S</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-loja">
+        <a href="https://www.residentevil.com/requiem/"
+        target="_blank">
+        <button class="botao-loja"><i class="fa-solid fa-globe"></i> OFFICIAL WEBSITE</button></a>
+        <a href="https://store.playstation.com/pt-br/product/UP0102-PPSA30803_00-REREQUIEM0000000"
+        target="_blank">
+        <button class="botao-loja">PLAYSTATION 5</button></a>
+        <a href="https://www.xbox.com/pt-BR/games/store/resident-evil-requiem/9PDBRV4589NL"
+        target="_blank">
+        <button class="botao-loja">XBOX SERIES X | S</button></a>
+        <a href="https://store.steampowered.com/app/3764200/Resident_Evil_Requiem/"
+        target="_blank">
+        <button class="botao-loja">STEAM</button></a>
+        <a href="https://www.nintendo.com/store/products/resident-evil-requiem-switch-2/?srsltid=AfmBOoq__ht4N5JKz1AZZwIMWUKou6XJRr9Yv3j95QV_Hy_X5vLM2ggS"
+        target="_blank">
+        <button class="botao-loja">NINTENDO SWITCH 2</button></a>
+        <a href="https://store.epicgames.com/pt-BR/p/resident-evil-requiem-4ead6d"
+        target="_blank">
+        <button class="botao-loja">EPIC GAMES STORE</button></a>
+    </div>
+
+    <script>
+        // AUDIO
+        window.customAudioPath = '/assets/audios/projetos/countdown/re9_theme.mp3';
+    </script>
+    <script src="/assets/js/projetos/countdown.js"></script>
+    <script>
+        // TIMER
+        const targetDate = new Date(Date.UTC(2026, 1, 27, 5, 0, 0));
+        new CountdownTimer(targetDate, 'timer');
+    </script>
+
+    <script src="/assets/js/core/base.js"></script>
+</body> 
